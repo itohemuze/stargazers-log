@@ -1,0 +1,20 @@
+[
+  {
+    "repo": "octocat/Hello-World",
+    "description": "A sample GitHub repository to demonstrate stars.",
+    "url": "https://github.com/octocat/Hello-World",
+    "starred_at": "2026-08-01T09:15:00Z"
+  },
+  {
+    "repo": "microsoft/vscode",
+    "description": "Visual Studio Code - a lightweight but powerful source code editor.",
+    "url": "https://github.com/microsoft/vscode",
+    "starred_at": "2026-07-20T14:30:00Z"
+  },
+  {
+    "repo": "nodejs/node",
+    "description": "Node.js JavaScript runtime built on Chrome's V8 engine.",
+    "url": "https://github.com/nodejs/node",
+    "starred_at": "2026-06-10T11:45:00Z"
+  }
+]

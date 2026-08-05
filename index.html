@@ -3,9 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <header>
+      <h1>Stargazers log</h1>
+      <p>A log of the repositories I've starred.</p>
+    </header>
+    <main>
+      <section>
+        <h2>Starred repositories</h2>
+        <ul id="starred-list">
+          <li>Loading starred repositories…</li>
+        </ul>
+        <div id="error-message" role="alert" style="display: none;"></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
