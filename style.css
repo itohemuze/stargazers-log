@@ -72,11 +72,21 @@ p {
   font-weight: 700;
 }
 
+a.repo-name:focus-visible {
+  outline: 3px solid #0366d6;
+  outline-offset: 3px;
+}
+
 #error-message {
+  display: none;
   color: #b91d1d;
   background: #ffebe9;
   border: 1px solid #f2c8c3;
   border-radius: 8px;
   padding: 1rem;
   margin-top: 1rem;
+}
+
+#error-message.visible {
+  display: block;
 }
